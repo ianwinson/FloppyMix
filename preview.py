@@ -16,7 +16,7 @@ while(1):
         f=open('track.txt', 'r')
         f.seek(0)
         num = f.read(1)
-        a = "E:\\music\\music"
+        a = "F:\\music\\music"
         c = ".mp3"
         path = a + str(int(num)) + c 
         path2 = "music" + str(int(num)) + ".mp3"
