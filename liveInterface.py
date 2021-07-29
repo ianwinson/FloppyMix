@@ -39,7 +39,7 @@ if(file.exists()):
 #------------------------------------------------------------------------
 set = live.Set()
 set.scan(scan_clip_names = True, scan_devices = True)
-set.tempo = 70.0
+set.tempo = 120.0
 
 #------------------------------------------------------------------------
 # Each Set contains a list of Track objects.
